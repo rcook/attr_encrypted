@@ -12,7 +12,7 @@ env:
   - ACTIVERECORD=2.3.8
   - ACTIVERECORD=3.0.0
   - ACTIVERECORD=3.1.0
-  - ACTIVERECORD=3.2.0
+  - ACTIVERECORD=3.2.12
   - ACTIVERECORD=4.0.0
 matrix:
   exclude:
@@ -26,5 +26,4 @@ matrix:
       env: ACTIVERECORD=3.0.0
     - rvm: 2.0.0
       env: ACTIVERECORD=3.1.0
-    - rvm: 2.0.0
-      env: ACTIVERECORD=3.2.0
+
